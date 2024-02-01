@@ -1,0 +1,32 @@
+class Bola {
+    // Atributos da classe
+    private String cor; // Atributo privado para encapsulamento  
+    
+    // Método construtor da classe para inicializar os atributos
+    Bola(String cor) {
+        this.cor = cor;
+        
+    }
+    
+    // Método getter para obter o nome da pessoa
+    public String getcor() {
+        return cor;
+    }
+    
+    // Método getter para obter a idade da pessoa
+    public String setcor() {
+        return cor;
+       
+}
+
+// Classe principal que contém o método main
+public class Main {
+    public static void main(String[] args) {
+        Bola bola1 = new Bola("Preta e Branca");
+        
+        // Usando os métodos getters para obter e imprimir as informações do Carro
+        System.out.println("cor: " + bola1.getcor()); // Obtém e imprime o marca do Carro
+        System.out.println("cor: " + bola1.setcor()); // Obtém e imprime o modelo do Carro
+    }
+}
+}
